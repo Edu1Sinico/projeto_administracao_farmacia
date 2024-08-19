@@ -89,14 +89,12 @@ Imagem do Diagrama conceitual:
 - email
 - senha
 - cpf
-<br>
 
 **Tabela: Medicamentos**
 - id_medicamento (Chave Primária)
 - preco
 - qtde (quantidade)
 - descricao
-<br>
 
 **Tabela: Vendas**
 - id_venda (Chave Primária)
@@ -105,7 +103,7 @@ Imagem do Diagrama conceitual:
 - total
 - qtde (quantidade)
 - data
-<br>
+- <br>
 
 ### _Relações:_
 - Cliente e Vendas: Um cliente pode realizar várias vendas (relação 1).
