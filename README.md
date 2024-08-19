@@ -68,16 +68,13 @@ As principais funcionalidades desse sistema, são:
 <br>
 
 > ## _Banco de Dados_
-<br>
-
-
-
-### _Tabelas e Elementos:_
 Imagem do Diagrama conceitual:
 <div align="center">
     <img src="projeto_farmacia_bd/bd_farmacia_diagrama_conceitual.png" alt="Imagem do Diagrama Conceitual" width="800vh">
 </div>
 <br>
+
+### _Tabelas e Elementos:_
 
 **Tabela: Cliente**
 - id_cliente (Chave Primária)
