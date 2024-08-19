@@ -6,8 +6,6 @@ Repositório destinado para a avaliação somativa sobre administração de farm
 - [Introdução](#introdução);
 - [Objetivos do Projeto](#objetivos-do-projeto);
 - [Funcionalidades](#funcionalidades);
-- [Testes e Resultados](#testes-e-resultados);
-- [Designs e Estilos](#designs-e-estilos);
 - [Banco de Dados](#banco-de-dados);
 - [Estrutura de Programação](#estrutura-de-programação);
 
@@ -57,14 +55,6 @@ As principais funcionalidades desse sistema, são:
 
 ### _Manual de Instrução:_
   
-<br>
-
-> ## _Testes e Resultados_
-
-<br>
-
-> ## _Designs e Estilos_
-
 <br>
 
 > ## _Banco de Dados_
