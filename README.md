@@ -1,4 +1,4 @@
-# Projeto de administração de um Sistema Farmacêutico
+# Projeto de Administração de um Sistema Farmacêutico
 Repositório destinado para a avaliação somativa sobre administração de farmácia com o Framework Laravel.
 
 >  ## _índice:_
