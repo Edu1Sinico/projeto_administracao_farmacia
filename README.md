@@ -8,7 +8,7 @@ Repositório destinado para a avaliação somativa sobre administração de farm
 - [Funcionalidades](#funcionalidades);
 - [Testes e Resultados](#testes-e-resultados);
 - [Designs e Estilos](#designs-e-estilos);
-- [Segurança de Dados](#segurança-de-dados);
+- [Banco de Dados](#banco-de-dados);
 - [Estrutura de Programação](#estrutura-de-programação);
 
 >  ## _Introdução_
@@ -67,7 +67,53 @@ As principais funcionalidades desse sistema, são:
 
 <br>
 
-> ## _Segurança de Dados_
+> ## _Banco de Dados_
+
+
+<br>
+
+> ## _Análise de riscos_
+Aqui estão alguns possíveis problemas que podem ocorrer durante o projeto:<br><br>
+**1. Falhas no Sistema de Autenticação:**
+- Descrição: Possibilidade de vulnerabilidades no sistema de login e autenticação que possam permitir o acesso não autorizado.
+- Impacto: Acesso indevido a informações sensíveis de clientes e funcionários, comprometendo a segurança dos dados.
+- Mitigação: Implementação de autenticação multifator (MFA) e criptografia robusta para senhas.
+<br>
+
+**2. Perda ou Corrupção de Dados:**
+- Descrição: Possibilidade de perda ou corrupção de dados críticos devido a falhas no banco de dados ou problemas no servidor.
+- Impacto: Perda irreparável de informações sobre medicamentos, clientes, e vendas, afetando a operação da farmácia.
+- Mitigação: Realização de backups regulares e implementação de mecanismos de recuperação de desastres.
+<br>
+
+**3. Ataques de SQL Injection:**
+- Descrição: Risco de ataques de injeção de SQL, onde um invasor pode manipular consultas SQL para obter acesso não autorizado ao banco de dados.
+- Impacto: Comprometimento do banco de dados, resultando na exposição de dados confidenciais.
+- Mitigação: Utilização de consultas parametrizadas e práticas seguras de codificação para prevenir SQL Injection.
+<br>
+
+**4. Falta de Escalabilidade do Sistema:**
+- Descrição: O sistema pode não suportar um aumento significativo de usuários e transações.
+- Impacto: Desempenho degradado, lentidão, e possíveis interrupções no serviço à medida que a farmácia cresce.
+- Mitigação: Planejamento e arquitetura escalável desde o início, com uso de serviços de nuvem e balanceamento de carga.
+<br>
+
+**5. Problemas de Conformidade Legal:**
+- Descrição: Risco de não conformidade com leis e regulamentos relacionados à privacidade e segurança de dados (como a LGPD).
+- Impacto: Penalidades legais, multas, e danos à reputação da farmácia.
+- Mitigação: Consulta com especialistas em conformidade e implementação de medidas para garantir que o sistema atenda a todos os requisitos legais.
+<br>
+
+**6. Dependência de Fornecedores Terceirizados:**
+- Descrição: Dependência de serviços de terceiros, como provedores de hospedagem ou APIs externas, que podem ter interrupções ou falhas.
+- Impacto: Interrupções no sistema ou perda de funcionalidade em caso de falhas do fornecedor.
+- Mitigação: Acordos de nível de serviço (SLAs) rigorosos e planejamento de contingências, como backup de serviços.
+<br>
+
+**7. Erros Humanos:**
+- Descrição: Risco de erros humanos na manipulação de dados, configuração do sistema, ou no desenvolvimento do código.
+- Impacto: Falhas no sistema, perda de dados, ou introdução de vulnerabilidades de segurança.
+- Mitigação: Treinamento adequado dos funcionários e implementação de processos de revisão e auditoria.
 
 <br>
 
