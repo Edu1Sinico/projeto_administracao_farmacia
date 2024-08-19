@@ -52,24 +52,32 @@ class MedicamentoController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(string $id)
+    public function edit(Medicamento $Medicamento)
     {
-        //
+        return view('medicamentos.edit',compact('Medicamento'));
     }
 
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, string $id)
+    public function update(Request $request, medicamento $Medicamento)
     {
-        //
+        $dados = $request->validate([
+            'descricao'=> 'required|string|max:100',
+            'preco'=>'required|numeric',
+            'quantidade'=>'required|numeric'
+        ]);
+        $Medicamento->update($dados);
+
+        return redirect()->route('medicamentos.index')->with('success', 'Medicamento Atualizada com sucesso.');
     }
 
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(string $id)
+    public function destroy(Medicamento $medicamento)
     {
-        //
+        $medicamento->delete($medicamento);
+        return redirect()->route('medicamentos.index')->with('success', 'Medicamento Deletada com sucesso.');
     }
 }
