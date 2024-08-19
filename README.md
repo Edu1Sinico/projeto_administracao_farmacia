@@ -86,7 +86,7 @@ Para o gerenciamento dos dados, optamos pelo PostgreSQL, um banco de dados relac
 
 **Bootstrap**
 <br>
-
+Bootstrap é um popular framework de front-end utilizado para criar interfaces web responsivas e modernas. Desenvolvido pela equipe do Twitter, ele oferece uma ampla gama de componentes prontos, como botões e formulários, além de um sistema de grid flexível que facilita o design para diferentes dispositivos.
 
 <hr>
 
