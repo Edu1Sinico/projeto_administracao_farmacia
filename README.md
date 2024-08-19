@@ -19,28 +19,42 @@ Nosso portal foi desenvolvido para facilitar a busca por novas oportunidades, es
 Com isso, criamos uma plataforma acessível e intuitiva que busca conectar candidatos a oportunidades de trabalho, bem como ajudar empresas a identificar e contratar os talentos necessários para o seu crescimento. O objetivo final é contribuir para um mercado de trabalho mais dinâmico e eficiente, beneficiando tanto os candidatos quanto as empresas.
 <br>
 > ## _Objetivos do Projeto_
+Os principais objetivos desse sistema, são:
 **1. Específicos:**
-     <br> - Automatizar a gestão de medicamentos.
-     <br> - Facilitar o processo de compra e venda.
-     <br> - Prover um sistema seguro de gerenciamento de dados de clientes e funcionários.<br>
+- Automatizar a gestão de medicamentos.
+- Facilitar o processo de compra e venda.
+- Prover um sistema seguro de gerenciamento de dados de clientes e funcionários.
+<br>
 
 **2. Mensuráveis:**
-     <br> - Reduzir o tempo de atendimento em 100%.
-     <br> - Diminuir erros na venda de medicamentos em 100%.<br>
-     
+- Reduzir o tempo de atendimento em 100%.
+- Diminuir erros na venda de medicamentos em 100%.
+<br>
+
 **3. Atingíveis:**
-     <br> - O projeto será implementado em fases, garantindo que cada etapa seja concluída dentro do cronograma.<br>
-     
+- O projeto será implementado em fases, garantindo que cada etapa seja concluída dentro do cronograma.
+<br>
+
 **4. Relevantes:**
-     <br>- O sistema será essencial para melhorar a precisão e segurança na gestão farmacêutica.<br>
-     
+- O sistema será essencial para melhorar a precisão e segurança na gestão farmacêutica.
+<br>
+
 **5. Temporais:**
-     <br>- O projeto será concluído em 3 meses, com entregas parciais a cada fase de desenvolvimento.
+- O projeto será concluído em 3 meses, com entregas parciais a cada fase de desenvolvimento.
 
 <br>
 
 > ## _Funcionalidades_
+As principais funcionalidades desse sistema, são:
+- Gestão de Medicamentos: Cadastro, atualização, e controle de estoque.
+- Registro de Vendas: Controle de transações, histórico de compras, e geração de recibos.
+- Cadastro de Clientes e Funcionários: Gestão de perfis com segurança e privacidade.
+- Relatórios: Geração de relatórios para análise de vendas, estoque, e performance.
 
+<br>
+
+### _Manual de Instrução:_
+  
 <br>
 
 > ## _Testes e Resultados_
