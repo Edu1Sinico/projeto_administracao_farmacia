@@ -68,7 +68,52 @@ As principais funcionalidades desse sistema, são:
 <br>
 
 > ## _Banco de Dados_
+<br>
 
+
+
+### _Tabelas e Elementos:_
+Imagem do Diagrama conceitual:
+<div align="center">
+    <img src="projeto_farmacia_bd/bd_farmacia_diagrama_conceitual.png" alt="Imagem do Diagrama Conceitual" width="800vh">
+</div>
+<br>
+
+**Tabela: Cliente**
+- id_cliente (Chave Primária)
+- nome
+- email
+- senha
+- cpf
+
+**Tabela: Funcionário**
+- id_func (Chave Primária)
+- nome
+- email
+- senha
+- cpf
+<br>
+
+**Tabela: Medicamentos**
+- id_medicamento (Chave Primária)
+- preco
+- qtde (quantidade)
+- descricao
+<br>
+
+**Tabela: Vendas**
+- id_venda (Chave Primária)
+- id_medicamento (Chave Estrangeira referenciando Medicamentos)
+- id_cliente (Chave Estrangeira referenciando Cliente)
+- total
+- qtde (quantidade)
+- data
+<br>
+
+### _Relações:_
+- Cliente e Vendas: Um cliente pode realizar várias vendas (relação 1).
+- Funcionário e Medicamentos: Um funcionário pode cadastrar vários medicamentos (relação 1).
+- Medicamentos e Vendas: Um medicamento pode estar relacionado a várias vendas (relação 1).
 
 <br>
 
