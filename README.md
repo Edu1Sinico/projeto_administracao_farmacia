@@ -12,14 +12,16 @@ Repositório destinado para a avaliação somativa sobre administração de farm
 - [Estrutura de Programação](#estrutura-de-programação);
 
 >  ## _Introdução_
-O crescente desemprego e a dificuldade em encontrar oportunidades de trabalho adequadas, bem como a escassez de funcionários qualificados, são desafios significativos no mercado de trabalho atual. Este projeto tem como objetivo fornecer soluções para esses problemas através da criação de um portal de empregos.
+No cenário atual das farmácias, a gestão eficiente de medicamentos, aliada ao atendimento ágil e seguro dos clientes, é essencial para garantir a qualidade dos serviços oferecidos. Com o avanço da tecnologia, a necessidade de sistemas automatizados que possam otimizar essas operações se tornou evidente.
 
-Nosso portal foi desenvolvido para facilitar a busca por novas oportunidades, especialmente para jovens que estão iniciando suas carreiras. Além disso, ele também visa ajudar empresas a encontrar candidatos qualificados de maneira mais eficiente e direcionada.
+Este projeto tem como objetivo desenvolver um sistema farmacêutico robusto e intuitivo, voltado para a melhoria das operações diárias em farmácias. O sistema permitirá o gerenciamento eficaz de medicamentos, o registro detalhado de vendas, e a administração segura de dados de clientes e funcionários.
 
-Com isso, criamos uma plataforma acessível e intuitiva que busca conectar candidatos a oportunidades de trabalho, bem como ajudar empresas a identificar e contratar os talentos necessários para o seu crescimento. O objetivo final é contribuir para um mercado de trabalho mais dinâmico e eficiente, beneficiando tanto os candidatos quanto as empresas.
+Com foco em facilitar a vida tanto dos profissionais que atuam nas farmácias quanto dos clientes, este projeto visa criar uma solução que não apenas automatize processos, mas também garanta a segurança e a eficiência em todas as etapas de atendimento.
+
+O público-alvo deste sistema inclui farmacêuticos, funcionários administrativos, e clientes que buscam um serviço ágil e confiável. A implementação deste sistema proporcionará uma experiência mais eficiente e segura, refletindo diretamente na satisfação dos usuários e na melhoria da gestão interna das farmácia
 <br>
 > ## _Objetivos do Projeto_
-Os principais objetivos desse sistema, são:
+Os principais objetivos desse sistema, são:<br><br>
 **1. Específicos:**
 - Automatizar a gestão de medicamentos.
 - Facilitar o processo de compra e venda.
