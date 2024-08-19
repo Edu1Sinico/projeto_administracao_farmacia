@@ -1,4 +1,4 @@
-# Projeto de administração de um Sistema Farmacêutico
+# Projeto de Administração de um Sistema Farmacêutico
 Repositório destinado para a avaliação somativa sobre administração de farmácia com o Framework Laravel.
 
 >  ## _índice:_
@@ -6,8 +6,6 @@ Repositório destinado para a avaliação somativa sobre administração de farm
 - [Introdução](#introdução);
 - [Objetivos do Projeto](#objetivos-do-projeto);
 - [Funcionalidades](#funcionalidades);
-- [Testes e Resultados](#testes-e-resultados);
-- [Designs e Estilos](#designs-e-estilos);
 - [Banco de Dados](#banco-de-dados);
 - [Estrutura de Programação](#estrutura-de-programação);
 
@@ -59,16 +57,48 @@ As principais funcionalidades desse sistema, são:
   
 <br>
 
-> ## _Testes e Resultados_
-
-<br>
-
-> ## _Designs e Estilos_
-
-<br>
-
 > ## _Banco de Dados_
+Imagem do Diagrama conceitual:
+<div align="center">
+    <img src="projeto_farmacia_bd/bd_farmacia_diagrama_conceitual.png" alt="Imagem do Diagrama Conceitual" width="800vh">
+</div>
+<br>
 
+### _Tabelas e Elementos:_
+
+**Tabela: Cliente**
+- id_cliente (Chave Primária)
+- nome
+- email
+- senha
+- cpf
+
+**Tabela: Funcionário**
+- id_func (Chave Primária)
+- nome
+- email
+- senha
+- cpf
+
+**Tabela: Medicamentos**
+- id_medicamento (Chave Primária)
+- preco
+- qtde (quantidade)
+- descricao
+
+**Tabela: Vendas**
+- id_venda (Chave Primária)
+- id_medicamento (Chave Estrangeira referenciando Medicamentos)
+- id_cliente (Chave Estrangeira referenciando Cliente)
+- total
+- qtde (quantidade)
+- data
+<br>
+
+### _Relações:_
+- Cliente e Vendas: Um cliente pode realizar várias vendas (relação 1).
+- Funcionário e Medicamentos: Um funcionário pode cadastrar vários medicamentos (relação 1).
+- Medicamentos e Vendas: Um medicamento pode estar relacionado a várias vendas (relação 1).
 
 <br>
 
