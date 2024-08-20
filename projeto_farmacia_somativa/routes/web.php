@@ -30,7 +30,8 @@ Route::post('/logout', [UserController::class, 'logout'])->name('usuario.logout'
 // Rota para a lista de medicamentos
 Route::get('/list', [ListMedicamentosController::class, 'index'])->middleware(ListMedicamentoMiddleware::class)->name('list');
 
+Route::resource('/medicamentos', MedicamentoController::class);
+
 Route::get('medicamentos/{medicamento}', [MedicamentoController::class, 'show'])->middleware(UsuarioMiddleware::class)->name('medicamentos.show');
 
-
-Route::post('medicamento/add/{medicamento}', [VendaController::class, 'add'])->middleware('auth')->name('venda.add');
+Route::post('venda/add/{medicamento}', [VendaController::class, 'add'])->middleware('auth')->name('venda.add');

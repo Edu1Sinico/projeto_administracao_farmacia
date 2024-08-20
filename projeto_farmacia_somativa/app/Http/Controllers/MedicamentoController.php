@@ -44,8 +44,7 @@ class MedicamentoController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(string $id)
-    {
+    public function show(Medicamento $medicamento){
         return view('medicamentos.show', compact('medicamento'));
     }
 
