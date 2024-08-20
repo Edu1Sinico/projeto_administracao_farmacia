@@ -29,7 +29,7 @@ class UserController extends Controller
 
         // Tenta autenticar o usuário com as credenciais fornecidas usando o guard 'web'.
         // O método attempt retorna 'true' se as credenciais estiverem corretas.
-        if (Auth::guard('usuario')->attempt($credentials)) {
+        if (Auth::guard('web')->attempt($credentials)) {
 
             // Se a autenticação for bem-sucedida, regenera a sessão do usuário.
             // Isso ajuda a prevenir ataques de fixação de sessão, garantindo que uma nova sessão seja criada.
@@ -59,16 +59,16 @@ class UserController extends Controller
     {
         // Valida as informações de registros de usuários
         $request->validate([
-            'nome' => 'required|string|max:255',
-            'email' => 'required|string|email|max:255|unique:usuarios',
+            'name' => 'required|string|max:255',
+            'email' => 'required|string|email|max:255|unique:users',
             'password' => 'required|string|min:8|confirmed',
-            'cpf' => 'required|string|max:14|unique:Usuarios',
+            'cpf' => 'required|string|max:14|unique:users',
             'tipo' => 'required|string',
         ]);
 
 
         $usuario = User::create([
-            'nome' => $request->nome,
+            'name' => $request->name,
             'email' => $request->email,
             'password' => Hash::make($request->password),
             'cpf' => $request->cpf,
@@ -76,7 +76,7 @@ class UserController extends Controller
         ]);
 
         // Após a realização do registro, ele automáticamente iniciará o login.
-        Auth::guard('usuario')->login($usuario);
+        Auth::guard('web')->login($usuario);
 
         // Ele irá redirecionar para a página de dashboard do usuários.
         return redirect('/');
@@ -86,7 +86,7 @@ class UserController extends Controller
     // Realizar o logout do usuário
     public function logout(Request $request)
     {
-        Auth::guard('usuario')->logout(); // Logout do guard 'usuario'
+        Auth::guard('web')->logout(); // Logout do guard 'usuario'
         $request->session()->regenerateToken(); // Regenera o token da sessão
 
         $request->session()->invalidate();
