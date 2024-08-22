@@ -16,7 +16,7 @@ Este projeto tem como objetivo desenvolver um sistema farmacêutico robusto e in
 
 Com foco em facilitar a vida tanto dos profissionais que atuam nas farmácias quanto dos clientes, este projeto visa criar uma solução que não apenas automatize processos, mas também garanta a segurança e a eficiência em todas as etapas de atendimento.
 
-O público-alvo deste sistema inclui farmacêuticos, funcionários administrativos, e clientes que buscam um serviço ágil e confiável. A implementação deste sistema proporcionará uma experiência mais eficiente e segura, refletindo diretamente na satisfação dos usuários e na melhoria da gestão interna das farmácia
+O público-alvo deste sistema inclui farmacêuticos, funcionários administrativos, e clientes que buscam um serviço ágil e confiável. A implementação deste sistema proporcionará uma experiência mais eficiente e segura, refletindo diretamente na satisfação dos usuários e na melhoria da gestão interna das farmácia.
 <br>
 > ## _Objetivos do Projeto_
 Os principais objetivos desse sistema, são:<br><br>
