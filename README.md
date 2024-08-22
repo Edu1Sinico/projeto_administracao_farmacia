@@ -54,6 +54,8 @@ As principais funcionalidades desse sistema, são:
 <br>
 
 ### _Manual de Instrução:_
+
+
   
 <br>
 
@@ -88,8 +90,8 @@ Imagem do Diagrama conceitual:
 
 **Tabela: Vendas**
 - id_venda (Chave Primária)
-- id_medicamento (Chave Estrangeira referenciando Medicamentos)
-- id_cliente (Chave Estrangeira referenciando Cliente)
+- desc_medicamento
+- nome_cliente
 - total
 - qtde (quantidade)
 - data
