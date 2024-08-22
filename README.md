@@ -71,8 +71,8 @@ Uma página bem simples, com um cabeçalho contendo os links para as outras pág
 </div>
 
 Está página contem dois campos para serem inseridos:
-- Inserir o Email;
-- Inserir a Senha;<br>
+- Email;
+- Senha;<br>
 
 Ambos os campos possuem tratamentos e validações para verificação de possíveis falhas que podem interferir no desempenho e na segurança do site.
   
@@ -94,7 +94,7 @@ Entretanto, existe um campo para escolher duas opções de usuários:
 - Cliente:<br>
       O usuário cliente terá acesso somente a página Home e a página de produtos, não podendo acessar outras páginas sem autorização.<br>
 - Funcionário:<br>
-      O usuário funcionário terá acesso em todas as páginas, podendo realizar tarefas específicas como cadastro, exlusão e edição de produtos.<br>
+      O usuário funcionário terá acesso em todas as páginas, podendo realizar tarefas específicas como cadastro, exlusão e edição de produtos.
   
 <hr>
 
