@@ -13,21 +13,9 @@ class VendaController extends Controller
 
     public function add(Request $request, Medicamento $medicamento){
 
-        $quantidade = $request->input('quantidade');
-        $total = $medicamento->preco * $quantidade;
+        $venda = Venda::firstOrCreate(['id_usuario' => Auth::id(), 'id_medicamento' => $medicamento->id, 'total' => $medicamento->total, 'quantidade' => $medicamento->quantidade]);
 
-        // Registrar a venda
-        $venda = Venda::create([
-            'id_cliente' => Auth::id(),
-            'id_medicamento' => $medicamento->id,
-            'total' => $total,
-            'quantidade' => $quantidade,
-        ]);
-        
-        
-        // $venda = Venda::firstOrCreate(['id_cliente' => Auth::id(), 'id_medicamento' => $medicamento->id, 'total' => $medicamento->total, 'quantidade' => $medicamento->quantidade]);
-
-        return redirect()->route('medicamentos.show', $venda->id)->with('success','Compra realizada com sucesso!');
+        return redirect()->route('medicamentos.index', $venda->id)->with('success','Compra realizada com sucesso!');
     }
 
 }

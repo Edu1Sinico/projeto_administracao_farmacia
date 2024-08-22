@@ -45,31 +45,31 @@ class MedicamentoController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Medicamento $medicamentos){
-        return view('medicamentos.show', compact('medicamentos'));
+    public function show(Medicamento $medicamento){
+        return view('medicamentos.show', compact('medicamento'));
     }
 
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Medicamento $medicamentos)
+    public function edit(Medicamento $medicamento)
     {
-        return view('medicamentos.edit',compact('medicamentos'));
+        return view('medicamentos.edit',compact('medicamento'));
     }
 
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, medicamento $Medicamento)
+    public function update(Request $request, Medicamento $medicamento)
     {
         $dados = $request->validate([
             'descricao'=> 'required|string|max:100',
             'preco'=>'required|numeric',
             'quantidade'=>'required|numeric'
         ]);
-        $Medicamento->update($dados);
+        $medicamento->update($dados);
 
-        return redirect()->route('medicamentos.index')->with('success', 'Medicamento Atualizada com sucesso.');
+        return redirect()->route('medicamentos.index')->with('success', 'Medicamento atualizado com sucesso.');
     }
 
     /**

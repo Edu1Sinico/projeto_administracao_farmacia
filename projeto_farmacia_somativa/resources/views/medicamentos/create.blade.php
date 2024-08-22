@@ -3,7 +3,7 @@
 @section('content')
     <div class="container">
         <div class="create-title" style="border-bottom: 3px solid black; padding: 15px;">
-            <h2 class="my-4">Cadastrar Medicamento</h2>
+            <h2 class="my-4">Cadastrar Medicamentos</h2>
         </div>
         <br>
 

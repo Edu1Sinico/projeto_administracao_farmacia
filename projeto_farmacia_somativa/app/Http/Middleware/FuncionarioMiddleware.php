@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Illuminate\Support\Facades\Auth;
 
-class UsuarioMiddleware
+class FuncionarioMiddleware
 {
     /**
      * Handle an incoming request.
@@ -16,7 +16,7 @@ class UsuarioMiddleware
      */
     public function handle(Request $request, Closure $next): Response
     {
-        if(Auth::check() && Auth::user()->tipo === 'usuario'){
+        if(Auth::check() && Auth::user()->tipo === 'funcionario'){
             return $next($request);
         }
         return redirect()->route('')->withErrors(['access' => 'Você não tem permissão para acessar está área.']);

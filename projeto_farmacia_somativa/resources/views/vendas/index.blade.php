@@ -3,7 +3,7 @@
 @section('content')
     <div class="container">
         <div class="index-title" style="border-bottom: 3px solid black; padding: 15px;">
-            <h2 class="my-4">Medicamentos</h2>
+            <h2 class="my-4">Relatório de Vendas Realizadas</h2>
         </div>
         <br>
 
@@ -19,10 +19,10 @@
         <table class="table table-bordered">
             <tr>
                 <th>Nº</th>
-                <th>Descrição</th>
+                <th>Cliente</th>
+                <th>Produto</th>
                 <th>Quantidade</th>
-                <th>Preço</th>
-                <th width="280px">Ação</th>
+                <th>Preço Total</th>
             </tr>
             @foreach ($medicamentos as $medicamento)
                 <tr>
@@ -30,14 +30,6 @@
                     <td>{{ $medicamento->descricao }}</td>
                     <td>{{ intval($medicamento->quantidade) }}</td>
                     <td>{{ $medicamento->preco }}</td>
-                    <td>
-                        <form action="{{ route('medicamentos.destroy', $medicamento->id) }}" method="POST">
-                            <a class="btn btn-primary" href="{{ route('medicamentos.edit', $medicamento->id) }}">Editar</a>
-                            @csrf
-                            @method('DELETE')
-                            <button type="submit" class="btn btn-danger">Deletar</button>
-                        </form>
-                    </td>
                 </tr>
             @endforeach
         </table>

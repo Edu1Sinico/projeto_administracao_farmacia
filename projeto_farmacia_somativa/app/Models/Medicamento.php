@@ -13,12 +13,4 @@ class medicamento extends Model
         'quantidade',
         'preco'
     ];
-
-    public function total(){
-        return $this->preco*$this->quantidade;
-    }
-
-    public function quantidade(){
-        return $this->quantidade;
-    }
 }
