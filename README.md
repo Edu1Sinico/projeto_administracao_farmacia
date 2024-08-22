@@ -55,7 +55,7 @@ As principais funcionalidades desse sistema, são:
 
 ### _Manual de Instrução:_
 
-**_Fluxograma de Uso:_**
+**_Diagrama de Uso:_**
 - Página Inicial do Site:
 <div align="center">
     <img src="imagens_de_uso_web/pagina_inicial.png" alt="Página Inicial do Site" width="800vh">
