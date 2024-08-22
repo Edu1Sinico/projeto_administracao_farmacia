@@ -55,8 +55,29 @@ As principais funcionalidades desse sistema, são:
 
 ### _Manual de Instrução:_
 
+**_Fluxograma de Uso:_**
+- Página Inicial do Site:
+<div align="center">
+    <img src="imagens_de_uso_web/pagina_inicial.png" alt="Página Inicial do Site" width="800vh">
+</div>
 
+Uma página bem simples, com um cabeçalho contendo os links para as outras páginas (Home, produtos e vendas) e dois botões (Login e cadastro).
+
+<hr>
+
+- Página  de Login:
+<div align="center">
+    <img src="imagens_de_uso_web/pagina_login.png" alt="Página de Login do Site" width="800vh">
+</div>
+
+Está página contem dois campos para serem inseridos:
+- Inserir o Email;
+- Inserir a Senha;<br>
+
+Ambos os campos possuem tratamentos e validações para verificação de possíveis falhas que podem interferir no desempenho e na segurança do site.
   
+<hr>
+- 
 <br>
 
 > ## _Banco de Dados_
