@@ -19,7 +19,7 @@ Com foco em facilitar a vida tanto dos profissionais que atuam nas farmácias qu
 O público-alvo deste sistema inclui farmacêuticos, funcionários administrativos, e clientes que buscam um serviço ágil e confiável. A implementação deste sistema proporcionará uma experiência mais eficiente e segura, refletindo diretamente na satisfação dos usuários e na melhoria da gestão interna das farmácia.
 <br>
 > ## _Objetivos do Projeto_
-Os principais objetivos desse sistema, são:<br><br>
+Os principais objetivos desse sistema, são:<br>
 **1. Específicos:**
 - Automatizar a gestão de medicamentos.
 - Facilitar o processo de compra e venda.
