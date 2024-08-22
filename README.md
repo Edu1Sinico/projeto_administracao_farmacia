@@ -108,7 +108,7 @@ Na página de produtos, os medicamentos são exibidos em cards, contendo as segu
 - Quantidade;
 - Preço;<br>
 
-Além disso, existe a possibilidade de pesquisar pela descrição ou pelo preço do medicamento.<br><br>
+Além disso, existe a possibilidade de pesquisar pela descrição ou pelo preço do medicamento.<br>
 
 Em relação ao usuário "funcionário", ele tem algumas funções de cadastrar medicamentos, no qual essa possibilidade não é permitida para um usuário comum.
 
