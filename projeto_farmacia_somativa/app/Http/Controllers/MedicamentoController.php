@@ -12,7 +12,8 @@ class MedicamentoController extends Controller
      */
     public function index()
     {
-        return view('medicamentos.index',compact('medicamento'));
+        $medicamentos = Medicamento::all();
+        return view('medicamentos.index',compact('medicamentos'));
     }
 
     /**
@@ -36,7 +37,7 @@ class MedicamentoController extends Controller
         Medicamento::create($dados);
 
 
-        return redirect()->route('Medicamento.index')
+        return redirect()->route('medicamentos.index')
             ->with('success', 'Medicamento adicionado com sucesso.');
 
     }
@@ -44,16 +45,16 @@ class MedicamentoController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Medicamento $medicamento){
-        return view('medicamentos.show', compact('medicamento'));
+    public function show(Medicamento $medicamentos){
+        return view('medicamentos.show', compact('medicamentos'));
     }
 
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Medicamento $Medicamento)
+    public function edit(Medicamento $medicamentos)
     {
-        return view('medicamentos.edit',compact('Medicamento'));
+        return view('medicamentos.edit',compact('medicamentos'));
     }
 
     /**

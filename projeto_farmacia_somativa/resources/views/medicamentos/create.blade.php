@@ -1,10 +1,11 @@
-@extends('layout.app')
+@extends('layouts.app')
 
 @section('content')
     <div class="container">
         <div class="create-title" style="border-bottom: 3px solid black; padding: 15px;">
             <h2 class="my-4">Cadastrar Medicamento</h2>
         </div>
+        <br>
 
         @if ($errors->any())
             <div class="alert alert-danger">
@@ -22,19 +23,19 @@
             @csrf
             <div class="form-group">
                 <label for="descricao">Descrição:</label>
-                <input type="text" name="descricao" class="form-control" value="{{$medicamento->descricao}}">
+                <input type="text" name="descricao" class="form-control">
             </div>
             
     
             <div class="form-group">
                 <label for="quantidade">Quantidade:</label>
-                <input type="number" min="0" name="quantidade" class="form-control" value="{{$medicamento->quantidade}}">
+                <input type="number" min="0" name="quantidade" class="form-control">
             </div>
     
     
             <div class="form-group">
                 <label for="preco">Preço:</label>
-                <input type="text" name="preco" class="form-control" value="{{$medicamento->preco}}">
+                <input type="text" name="preco" class="form-control">
             </div>
 
             <br>

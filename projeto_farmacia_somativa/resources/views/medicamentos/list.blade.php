@@ -14,8 +14,9 @@
                 @endforeach
             </ul>
         </div>
+        <br>
     @endif
-    <br>
+
     <div class="div-form" style="display: flex; align-items: center; justify-content: space-between; width: 100%">
         <form method="GET" action="{{ route('list') }}"
             style="display: flex; align-items: center; justify-content: space-evenly; width: 50%">
