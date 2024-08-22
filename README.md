@@ -55,7 +55,7 @@ As principais funcionalidades desse sistema, são:
 
 ### _Manual de Instrução:_
 
-**_Diagrama de Uso:_**
+**_Fluxograma de Uso:_**
 - Página Inicial do Site:
 <div align="center">
     <img src="imagens_de_uso_web/pagina_inicial.png" alt="Página Inicial do Site" width="800vh">
@@ -97,6 +97,23 @@ Entretanto, existe um campo para escolher duas opções de usuários:
       O usuário funcionário terá acesso em todas as páginas, podendo realizar tarefas específicas como cadastro, exlusão e edição de produtos.
   
 <hr>
+
+- Página de Produtos (Visão do Funcionário):
+<div align="center">
+    <img src="imagens_de_uso_web/pagina_produtos_func.png" alt="Página de Produtos" width="800vh">
+</div>
+
+Na página de produtos, os medicamentos são exibidos em cards, contendo as seguintes informações:
+- Descrição;
+- Quantidade;
+- Preço;<br>
+
+Além disso, existe a possibilidade de pesquisar pela descrição ou pelo preço do medicamento.<br><br>
+
+Em relação ao usuário "funcionário", ele tem algumas funções de cadastrar medicamentos, no qual essa possibilidade não é permitida para um usuário comum.
+
+<hr> 
+
 
 <br>
 
