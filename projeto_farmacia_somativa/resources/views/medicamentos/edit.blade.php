@@ -32,7 +32,7 @@
 
         <div class="form-group">
             <label for="quantidade">Quantidade:</label>
-            <input type="number" min="0" name="quantidade" class="form-control" value="{{$medicamento->quantidade}}">
+            <input type="number" min="0" name="quantidade" class="form-control" value="{{ intval($medicamento->quantidade) }}">
         </div>
         <br>
 
