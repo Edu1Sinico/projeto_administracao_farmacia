@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Hash;
 
 class UserController extends Controller
 {
-     // Rotas
+    // Rotas
     // Exibir o formulário de login
     public function showLoginForm()
     {

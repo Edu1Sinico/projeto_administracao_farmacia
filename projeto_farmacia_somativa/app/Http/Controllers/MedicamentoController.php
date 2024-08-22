@@ -80,4 +80,25 @@ class MedicamentoController extends Controller
         $medicamento->delete($medicamento);
         return redirect()->route('medicamentos.index')->with('success', 'Medicamento Deletada com sucesso.');
     }
+
+    /**
+ * Atualiza a quantidade de medicamento após uma venda.
+ *
+ * @param Medicamento $medicamento
+ * @param int $quantidadeVendida
+ * @return void
+ */
+public function atualizarQuantidade(Medicamento $medicamento, int $quantidadeVendida)
+{
+    // Verifica se a quantidade vendida não é maior que a quantidade disponível
+    if ($quantidadeVendida > $medicamento->quantidade) {
+        return redirect()->back()->with('error', 'Quantidade vendida excede o estoque disponível.');
+    }
+
+    // Subtrai a quantidade vendida da quantidade disponível
+    $medicamento->quantidade -= $quantidadeVendida;
+
+    // Salva as alterações no banco de dados
+    $medicamento->save();
+}
 }

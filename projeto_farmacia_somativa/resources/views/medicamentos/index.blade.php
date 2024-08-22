@@ -14,7 +14,7 @@
             <br>
         @endif
 
-        <a class="btn btn-success mb-2" href="{{ route('medicamentos.create') }}"> Criar Nova Vaga</a>
+        <a class="btn btn-success mb-2" href="{{ route('medicamentos.create') }}"> Adicionar Novo Medicamento</a>
 
         <table class="table table-bordered">
             <tr>

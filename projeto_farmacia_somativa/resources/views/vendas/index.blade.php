@@ -24,12 +24,13 @@
                 <th>Quantidade</th>
                 <th>Preço Total</th>
             </tr>
-            @foreach ($medicamentos as $medicamento)
+            @foreach ($vendas as $venda)
                 <tr>
                     <td>{{ $loop->iteration }}</td>
-                    <td>{{ $medicamento->descricao }}</td>
-                    <td>{{ intval($medicamento->quantidade) }}</td>
-                    <td>{{ $medicamento->preco }}</td>
+                    <td>{{ $venda->nome_cliente }}</td>
+                    <td>{{ $venda->desc_medicamento }}</td>
+                    <td>{{ intval($venda->quantidade) }}</td>
+                    <td>{{ $venda->total }}</td>
                 </tr>
             @endforeach
         </table>

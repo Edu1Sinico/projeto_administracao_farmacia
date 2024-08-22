@@ -35,3 +35,5 @@ Route::resource('/medicamentos', MedicamentoController::class)->middleware(Funci
 Route::get('medicamentos/{medicamento}', [MedicamentoController::class, 'show'])->name('medicamentos.show');
 
 Route::post('venda/add/{medicamento}', [VendaController::class, 'add'])->name('venda.add');
+
+Route::get('/vendas', [VendaController::class, 'index'])->middleware(FuncionarioMiddleware::class);

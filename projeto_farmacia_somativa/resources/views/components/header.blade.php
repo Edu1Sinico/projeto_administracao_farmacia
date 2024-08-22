@@ -10,7 +10,7 @@
                 <li><a href="/list" class="nav-link px-2 text-white">Produtos</a></li>
                 @auth
                     @if (Auth::user()->isFuncionario())
-                        <li><a href="/listar-vendas" class="nav-link px-2 text-white">Vendas</a></li>
+                        <li><a href="/vendas" class="nav-link px-2 text-white">Vendas</a></li>
                     @endif
                 @endauth
             </ul>

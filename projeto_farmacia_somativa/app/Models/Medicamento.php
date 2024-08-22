@@ -13,4 +13,5 @@ class medicamento extends Model
         'quantidade',
         'preco'
     ];
+
 }

@@ -23,7 +23,7 @@
                 <div class="content-info" style="width: 100%; display: flex; flex-direction: column; align-items:center;">
                     <div class="col-md-6" style="width: 90%; display: flex; flex-direction: column; align-items:flex-start">
                         <label>Quantidade Disponível: <span>{{ intval($medicamento->quantidade) }}</span></label><br>
-                        <label>Preço do Produto: R$ {{ $medicamento->preco }}</label>
+                        <label>Preço do Produto: R$  <span>{{ $medicamento->preco }}</span></label>
                     </div>
                     <br>
                     <form method="POST" action="{{ route('venda.add', $medicamento->id) }}" style="width: 85%;">
@@ -33,7 +33,7 @@
                             <input type="number" name="quantidade" min="1" max="{{ $medicamento->quantidade }}"
                                 id="qtde_input_id" value="1" class="form-control"><br>
                             <label for="total">Preço Total para Pagar:</label><br>
-                            <input type="text" name="total" id="preco_total" value="{{ $medicamento->preco }}" class="form-control" readonly>
+                            <input type="number" name="total" id="preco_total" value="{{ $medicamento->preco }}" class="form-control" readonly>
                         </div>
                         <br>
                         <div class="form-buttom" style="display: flex; width: 100%; justify-content: center;">

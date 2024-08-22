@@ -9,8 +9,8 @@ class venda extends Model
 {
     use HasFactory;
     protected $fillable = [
-        'id_usuario',
-        'id_medicamento',
+        'nome_cliente',
+        'desc_medicamento',
         'total',
         'quantidade',
         'data'

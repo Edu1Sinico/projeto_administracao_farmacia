@@ -25,20 +25,20 @@
                 <label for="descricao">Descrição:</label>
                 <input type="text" name="descricao" class="form-control">
             </div>
-            
+            <br>
     
             <div class="form-group">
                 <label for="quantidade">Quantidade:</label>
                 <input type="number" min="0" name="quantidade" class="form-control">
             </div>
-    
+            <br>
     
             <div class="form-group">
                 <label for="preco">Preço:</label>
                 <input type="text" name="preco" class="form-control">
             </div>
-
             <br>
+            
             <div align="center" class="form-group">
                 <button type="submit" class="btn btn-primary">Enviar</button>
             </div>

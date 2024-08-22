@@ -13,12 +13,10 @@ return new class extends Migration
     {
         Schema::create('vendas', function (Blueprint $table) {
             $table->id();
-            $table->unsignedBigInteger('id_usuario');
-            $table->unsignedBigInteger('id_medicamento');
+            $table->string('nome_cliente');
+            $table->string('desc_medicamento');
             $table->decimal('total');
             $table->decimal('quantidade');
-            $table->foreign('id_usuario')->references('id')->on('users');
-            $table->foreign('id_medicamento')->references('id')->on('medicamentos');
             $table->timestamps();
         });
     }
