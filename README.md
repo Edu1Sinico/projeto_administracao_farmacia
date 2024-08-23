@@ -185,6 +185,14 @@ Além disso, após a compra do produto, a quantidade irá diminuir no estoque, f
 
 <br>
 
+### _Diagrma de Fluxo:_
+Imagem do Diagrama de Fluxo:
+<div align="center">
+    <img src="diagrama_de_fluxo_web/diagrama_de_fluxo_farmacia.png" alt="Imagem do Diagrama de Fluxo" width="800vh">
+</div>
+
+<br>
+
 > ## _Banco de Dados_
 Imagem do Diagrama conceitual:
 <div align="center">
