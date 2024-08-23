@@ -160,6 +160,28 @@ Similar a página de cadastro do medicamento, a página de edição puxa as info
 
 <hr>
 
+- Página do Relatório de Vendas:
+<div align="center">
+    <img src="imagens_de_uso_web/pagina_vendas" alt="Página do Relatório de Vendas" width="800vh">
+</div>
+
+Como havia dito anteriormente, essa página é restria somente para os funcionários, no qual poderão analisar as informações de vendas realizadas ao longo do período. Nela, possuí as seguintes informações:
+- ID da compra (Nº);
+- Nome do cliente;
+- Descrição do produto;
+- Quantidade que o cliente comprou;
+- O total que o cliente pagou;<br>
+Essas informações são bem utéis para melhor análise e desemenho das vendas realizadas.
+
+<hr>
+
+- Página de Compra do Medicamento:
+<div align="center">
+    <img src="imagens_de_uso_web/pagina_compra_produto.png" alt="Página de Compra do Produto" width="800vh">
+</div>
+
+Essa página pode ser acessada por ambos os tipos de usuários, nela, o cliente/funcionário poderão realizar compras do produtos, escolhendo a quantidade que eles gostariam de comprar e o valor total que será multiplicado pela quantidade conforme ela for aumentando.<br>
+Além disso, após a compra do produto, a quantidade irá diminuir no estoque, fazendo com que o funcionário tenha um controle melhor em relação aos medicamentos cadastrados.
 
 <br>
 
