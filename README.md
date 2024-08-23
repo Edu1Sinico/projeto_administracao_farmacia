@@ -153,6 +153,12 @@ Na página de cadastro de produtos, o funcionário poderá realizar o cadastro c
     <img src="imagens_de_uso_web/editar_medicamento.png" alt="Página de Edição de Medicamentos" width="800vh">
 </div>
 
+Similar a página de cadastro do medicamento, a página de edição puxa as informações do medicamento conforme foi selecionado, permitindo assim a atualização dos seguintes items:
+- Descrição (Nome do Medicamento);
+- Quantidade;
+- Preço;
+
+<hr>
 
 
 <br>
