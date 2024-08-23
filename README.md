@@ -162,7 +162,7 @@ Similar a página de cadastro do medicamento, a página de edição puxa as info
 
 - Página do Relatório de Vendas:
 <div align="center">
-    <img src="imagens_de_uso_web/pagina_vendas" alt="Página do Relatório de Vendas" width="800vh">
+    <img src="imagens_de_uso_web/pagina_vendas.png" alt="Página do Relatório de Vendas" width="800vh">
 </div>
 
 Como havia dito anteriormente, essa página é restria somente para os funcionários, no qual poderão analisar as informações de vendas realizadas ao longo do período. Nela, possuí as seguintes informações:
