@@ -14,7 +14,7 @@
 <body>
     @include('components.header')
 
-    <div class="container" style="margin-top: 6%;">
+    <div class="container" style="margin-top: 6%; height: 70vh;">
         @yield('content')
     </div>
 
