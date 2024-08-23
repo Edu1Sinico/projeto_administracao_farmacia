@@ -7,7 +7,7 @@ Repositório destinado para a avaliação somativa sobre administração de farm
 - [Objetivos do Projeto](#objetivos-do-projeto);
 - [Funcionalidades](#funcionalidades);
 - [Banco de Dados](#banco-de-dados);
-- [Análise de riscos](#análise-de-risco);
+- [Análise de riscos](#análise-de-riscos);
 - [Estrutura de Programação](#estrutura-de-programação);
 
 >  ## _Introdução_
