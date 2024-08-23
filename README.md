@@ -180,7 +180,7 @@ Essas informações são bem utéis para melhor análise e desemenho das vendas 
     <img src="imagens_de_uso_web/pagina_compra_produto.png" alt="Página de Compra do Produto" width="800vh">
 </div>
 
-Essa página pode ser acessada por ambos os tipos de usuários, nela, o cliente/funcionário poderão realizar compras do produtos, escolhendo a quantidade que eles gostariam de comprar e o valor total que será multiplicado pela quantidade conforme ela for aumentando.<br>
+Essa página pode ser acessada por ambos os tipos de usuários, nela, o cliente/funcionário poderão realizar compras do produtos, escolhendo a quantidade que eles gostariam de comprar e o valor total que será multiplicado pela quantidade conforme ela for aumentando.<br><br>
 Além disso, após a compra do produto, a quantidade irá diminuir no estoque, fazendo com que o funcionário tenha um controle melhor em relação aos medicamentos cadastrados.
 
 <br>
