@@ -7,6 +7,7 @@ Repositório destinado para a avaliação somativa sobre administração de farm
 - [Objetivos do Projeto](#objetivos-do-projeto);
 - [Funcionalidades](#funcionalidades);
 - [Banco de Dados](#banco-de-dados);
+- [Análise de riscos](#análise-de-risco);
 - [Estrutura de Programação](#estrutura-de-programação);
 
 >  ## _Introdução_
@@ -98,6 +99,15 @@ Entretanto, existe um campo para escolher duas opções de usuários:
   
 <hr>
 
+- Cabeçalho (Visão dos funionários):
+<div align="center">
+    <img src="imagens_de_uso_web/header_funcionario.png" alt="Header dos Funcionários" width="800vh">
+</div>
+
+Ao realizar o login como tipo "funcionário", ele terá um acesso extra para a página de vendas, que será explicado mais afrente.
+
+<hr>
+
 - Página de Produtos (Visão do Funcionário):
 <div align="center">
     <img src="imagens_de_uso_web/pagina_produtos_func.png" alt="Página de Produtos" width="800vh">
@@ -113,6 +123,36 @@ Além disso, existe a possibilidade de pesquisar pela descrição ou pelo preço
 Em relação ao usuário "funcionário", ele tem algumas funções de cadastrar medicamentos, no qual essa possibilidade não é permitida para um usuário comum.
 
 <hr> 
+
+- Página de Listagem de Medicamentos:
+<div align="center">
+    <img src="imagens_de_uso_web/pagina_adicionar_medicamento.png" alt="Página de Listagem de Medicamentos" width="800vh">
+</div>
+
+Nesta página, o funcionário poderá visualizar todos os medicamentos cadastrados no site. Além disse, também existe a possibilidade dele realizar os seguintes procedimentos:
+- Cadastro de medicamentos;
+- Exclusão de medicamentos;
+- Atualização de medicamentos;<br>
+
+<hr>
+
+- Página de Cadastro de Medicamentos:
+<div align="center">
+    <img src="imagens_de_uso_web/cadastro_medicamento.png" alt="Página de Cadastro de Medicamentos" width="800vh">
+</div>
+
+Na página de cadastro de produtos, o funcionário poderá realizar o cadastro com os seguintes campos:
+- Descrição (Nome do Medicamento);
+- Quantidade;
+- Preço;
+
+<hr>
+
+- Página de Edição de Medicamentos:
+<div align="center">
+    <img src="imagens_de_uso_web/editar_medicamento.png" alt="Página de Edição de Medicamentos" width="800vh">
+</div>
+
 
 
 <br>
