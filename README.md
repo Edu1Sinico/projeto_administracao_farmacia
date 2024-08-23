@@ -183,12 +183,12 @@ Essas informações são bem utéis para melhor análise e desemenho das vendas 
 Essa página pode ser acessada por ambos os tipos de usuários, nela, o cliente/funcionário poderão realizar compras do produtos, escolhendo a quantidade que eles gostariam de comprar e o valor total que será multiplicado pela quantidade conforme ela for aumentando.<br><br>
 Além disso, após a compra do produto, a quantidade irá diminuir no estoque, fazendo com que o funcionário tenha um controle melhor em relação aos medicamentos cadastrados.
 
-<br>
+<hr>
 
 ### _Diagrma de Fluxo:_
 Imagem do Diagrama de Fluxo:
 <div align="center">
-    <img src="diagrama_de_fluxo_web/diagrama_de_fluxo_farmacia.png" alt="Imagem do Diagrama de Fluxo" width="800vh">
+    <img src="diagrama_de_fluxo_web/diagrama_de_fluxo_farmacia.png" alt="Imagem do Diagrama de Fluxo" width="500vh">
 </div>
 
 <br>
